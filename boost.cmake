@@ -13,10 +13,9 @@ set(Boost_USE_STATIC_LIBS ON)
 # cross platform builds during the project start up phase. If there are
 # exact specifications we need to become exact again.
 find_package(Boost REQUIRED
-    system 
-    filesystem 
     unit_test_framework
-    program_options) # add or remove libraries as required!
+    # add or remove libraries as required!
+    ) 
 
 # Compiler will find boost includes:
 include_directories(${Boost_INCLUDE_DIRS}) 
