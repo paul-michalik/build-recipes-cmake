@@ -7,7 +7,6 @@
 add_definitions(-DBOOST_ALL_NO_LIB)
 
 # We require this configuration on all platforms:
-set(Boost_USE_STATIC_LIBS        ON)
 set(Boost_USE_MULTITHREADED      ON)
 set(Boost_USE_STATIC_RUNTIME    OFF)
 
